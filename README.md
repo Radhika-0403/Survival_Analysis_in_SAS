@@ -13,20 +13,27 @@ Extract variable names and labels for further exploration.
 
 Utilize **PROC CONTENTS** to obtain detailed information about the dataset, including variable names and labels.
 
+
 Use **PROC PRINT** to display the first few observations of the dataset, providing an initial overview.
+
 
 Generate frequency tables using PROC FREQ to explore the distribution of observations across different groups.
 
+
 Employ **PROC UNIVARIATE** to analyze the variable "T" and visualize its distribution through a histogram.
+
 
 **Survival Analysis:**
 
 Implement **PROC LIFETEST** to conduct survival analysis on the dataset.
 
+
 Stratify the analysis by the variable "Group" to investigate potential differences in survival patterns among distinct groups.
+
 
 Generate survival and hazard plots for visual representation of survival probabilities.
 
 **Reporting:**
+
 
 Employ **ODS HTML** destination to capture and store key outputs, such as variable names, labels, and survival analysis results.
